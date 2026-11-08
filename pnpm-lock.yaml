@@ -23,17 +23,17 @@ importers:
         version: 4.12.27
       xsschema:
         specifier: ^0.4.4
-        version: 0.4.4(zod-to-json-schema@3.25.2(zod@4.2.1))(zod@4.2.1)
+        version: 0.4.4(zod-to-json-schema@3.25.2(zod@4.6.6))(zod@4.6.6)
       zod:
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.6.6
+        version: 4.6.6
     devDependencies:
       '@modelcontextprotocol/client':
         specifier: 2.3.1
         version: 2.3.1
       '@modelcontextprotocol/sdk':
         specifier: 1.32.1
-        version: 1.32.1(supports-color@7.2.0)(zod@4.2.1)
+        version: 1.32.1(supports-color@7.2.0)(zod@4.6.6)
       '@types/node':
         specifier: ^24.3.1
         version: 24.5.2
@@ -1424,8 +1424,8 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
-  zod@4.2.1:
-    resolution: {integrity: sha512-0wZ1IRqGGhMP76gLqz8EyfBXKk0J2qo2+H3fi4mcUP/KtTocoX08nmIAHl1Z2kJIZbZee8KOpBCSNPRgauucjw==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
 snapshots:
 
@@ -1568,13 +1568,13 @@ snapshots:
       eventsource-parser: 3.1.1
       jose: 6.2.13
       pkce-challenge: 5.0.1
-      zod: 4.2.1
+      zod: 4.6.6
 
   '@modelcontextprotocol/core@2.3.1':
     dependencies:
-      zod: 4.2.1
+      zod: 4.6.6
 
-  '@modelcontextprotocol/sdk@1.32.1(supports-color@7.2.0)(zod@4.2.1)':
+  '@modelcontextprotocol/sdk@1.32.1(supports-color@7.2.0)(zod@4.6.6)':
     dependencies:
       '@hono/node-server': 2.1.5(hono@4.12.27)
       ajv: 8.20.0
@@ -1591,15 +1591,15 @@ snapshots:
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
       raw-body: 3.0.2
-      zod: 4.2.1
-      zod-to-json-schema: 3.25.2(zod@4.2.1)
+      zod: 4.6.6
+      zod-to-json-schema: 3.25.2(zod@4.6.6)
     transitivePeerDependencies:
       - supports-color
 
   '@modelcontextprotocol/server@2.3.1':
     dependencies:
       '@modelcontextprotocol/core': 2.3.1
-      zod: 4.2.1
+      zod: 4.6.6
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -2743,10 +2743,10 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  xsschema@0.4.4(zod-to-json-schema@3.25.2(zod@4.2.1))(zod@4.2.1):
+  xsschema@0.4.4(zod-to-json-schema@3.25.2(zod@4.6.6))(zod@4.6.6):
     optionalDependencies:
-      zod: 4.2.1
-      zod-to-json-schema: 3.25.2(zod@4.2.1)
+      zod: 4.6.6
+      zod-to-json-schema: 3.25.2(zod@4.6.6)
 
   yocto-queue@0.1.0: {}
 
@@ -2754,10 +2754,10 @@ snapshots:
     dependencies:
       zod: 3.25.76
 
-  zod-to-json-schema@3.25.2(zod@4.2.1):
+  zod-to-json-schema@3.25.2(zod@4.6.6):
     dependencies:
-      zod: 4.2.1
+      zod: 4.6.6
 
   zod@3.25.76: {}
 
-  zod@4.2.1: {}
+  zod@4.6.6: {}
